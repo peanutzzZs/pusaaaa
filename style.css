@@ -1,0 +1,176 @@
+body {
+    background: #e7c992;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 140vh;
+    margin: 0;
+    padding: 20px;
+}
+
+#weather-container {
+    background: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    max-width: 900px;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin: 0 auto 20px auto; 
+}
+h2, label, p {
+    color: #452e02;
+    margin: 8px 0;
+}
+
+#weather-container h2 {
+    color: #694c17;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+#weather-content {
+    margin-top: 10px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #e7c992;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+button {
+    background: #bd8825;
+    color: 452e02;
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 80%;
+    font-size: 17px;
+}
+
+button:hover {
+    background: #d8a951;
+}
+
+#temp-div p {
+    font-size: 32px;
+    color: #452e02;
+    margin-top: 5px;
+}
+
+#weather-info {
+    font-size: 14px;
+    color: #e7c992;
+    margin-top: 8px;
+}
+
+#weather-icon {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 10px; 
+    margin-bottom: 0;
+    display: none;
+}
+
+#weather-icon {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    display: none;
+}
+#hourly-forecast {
+    margin-top: 50px;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hourly-item {
+    flex: 0 0 auto;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    color: #452e02;
+}
+
+.hourly-item img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+#hourly-heading {
+    color: #452e02;
+    margin-top: 10px;
+}
+#hourly-heading {
+    color: #452e02;
+    margin-top: 10px;
+}
+#products-container {
+    background: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    max-width: 800px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin: 0 auto 5px auto; 
+}
+
+#products-container h2 {
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+#products-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the items horizontally */
+}
+
+#products-list .product {
+    border: 2px solid #4e3507; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #dec593;
+    width: 50%;
+}
+
+#products-list .product h3 {
+    margin: 0 0 5px;
+    color: #333;
+}
+
+#products-container button {
+    background: #8b640a;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 80%;
+    font-size: 15px;
+    margin-top: 20px; 
+}
+
+#products-container button:hover {
+    background: #cca13e;
+}
